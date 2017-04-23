@@ -8,7 +8,6 @@ func reverseString (str: String) -> String {
 		}
 		for i in 0...workArr.count/2 - 1{
 			tmp = workArr[i]
-			print(tmp)
 			workArr[i] = workArr[(workArr.count - 1) - i]
 			workArr[(workArr.count - 1) - i] = tmp
 		}
